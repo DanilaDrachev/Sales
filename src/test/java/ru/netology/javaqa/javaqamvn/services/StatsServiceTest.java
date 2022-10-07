@@ -49,8 +49,27 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expectedSales, actualSales);}
 
+    @Test
+    public void AmounMonthsMax() {
+        StatsService service = new StatsService();
 
+        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
+        double expectedSales =5;
+        int actualSales = service.AmountAverageMax(sales);
+
+        Assertions.assertEquals(expectedSales, actualSales);}
+
+    @Test
+    public void AmounMonthsMin() {
+        StatsService service = new StatsService();
+
+        int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
+
+        double expectedSales =7;
+        int actualSales = service.AmountAverageMin(sales);
+
+        Assertions.assertEquals(expectedSales, actualSales);}
 }
 
 

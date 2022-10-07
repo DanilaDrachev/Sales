@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbb3419e-45d8-4ce0-90e2-721d36555818" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqa/javaqamvn/services/StatsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/javaqamvn/services/StatsServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/javaqa/javaqamvn/services/StatsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqa/javaqamvn/services/StatsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/javaqamvn/services/StatsServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/javaqamvn/services/StatsServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -42,27 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/medpr/IdeaProjects/Month/src/test/java/ru/netology/javaqa/javaqamvn/services",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/medpr/IdeaProjects/Month/src/test/java/ru/netology/javaqa/javaqamvn/services&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/medpr/IdeaProjects/Month&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test\" />
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.AmounMonthsMin">
     <configuration name="StatsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Month" />
       <extension name="coverage">
@@ -74,6 +76,38 @@
       <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.AmounAver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Month" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
+      <option name="METHOD_NAME" value="AmounAver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.AmounMonthsMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Month" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
+      <option name="METHOD_NAME" value="AmounMonthsMin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatsServiceTest.NMonthMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StatsServiceTest.MonthMaximum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Month" />
       <extension name="coverage">
         <pattern>
@@ -104,39 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
-      <option name="METHOD_NAME" value="NMonthMax" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatsServiceTest.SalesMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Month" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
-      <option name="METHOD_NAME" value="SalesMin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatsServiceTest.SumSales" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Month" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
-      <option name="METHOD_NAME" value="SumSales" />
+      <option name="METHOD_NAME" value="MonthMaximum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.AmounMonthsMin" />
+        <item itemvalue="JUnit.StatsServiceTest.AmounAver" />
+        <item itemvalue="JUnit.StatsServiceTest.MonthMaximum" />
         <item itemvalue="JUnit.StatsServiceTest" />
         <item itemvalue="JUnit.StatsServiceTest.AverageAllSales" />
-        <item itemvalue="JUnit.StatsServiceTest.NMonthMax" />
-        <item itemvalue="JUnit.StatsServiceTest.SalesMin" />
-        <item itemvalue="JUnit.StatsServiceTest.SumSales" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,10 @@
       <updated>1663696879624</updated>
       <workItem from="1663696882181" duration="728000" />
       <workItem from="1663861646524" duration="3579000" />
-      <workItem from="1664041525778" duration="22488000" />
+      <workItem from="1664041525778" duration="23120000" />
+      <workItem from="1664463640216" duration="610000" />
+      <workItem from="1664720321771" duration="1000" />
+      <workItem from="1664720501722" duration="361000" />
     </task>
     <servers />
   </component>
