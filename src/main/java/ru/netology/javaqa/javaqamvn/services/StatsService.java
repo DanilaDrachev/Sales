@@ -16,8 +16,8 @@ public class StatsService {
         // сумма всех продаж
 
         int sumSales = 0;
-        for (int x : sales)
-            sumSales += x;
+        for (int sale : sales) {
+            sumSales += sale;}
         return sumSales;
     }
 
@@ -25,11 +25,9 @@ public class StatsService {
         // средняя сумма продаж в месяц
 
         double average = 0;
-        int sumSales = 0;
-        for (int sale : sales) {
-            sumSales += sale;
-            average = sumSales / sales.length;
-        }
+        int sumSales = sumSales;
+        average = sumSales / sales.length;
+
         return average;
     }
 

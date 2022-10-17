@@ -64,22 +64,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.AmounMonthsMin">
-    <configuration name="StatsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Month" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StatsServiceTest.AmountMonthsMax">
     <configuration name="StatsServiceTest.AmounAver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Month" />
       <extension name="coverage">
@@ -107,6 +92,22 @@
       <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
       <option name="METHOD_NAME" value="AmounMonthsMin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatsServiceTest.AmountMonthsMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Month" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqa.javaqamvn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javaqamvn.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javaqamvn.services.StatsServiceTest" />
+      <option name="METHOD_NAME" value="AmountMonthsMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatsServiceTest.AmountMonthsMax" />
+        <item itemvalue="JUnit.StatsServiceTest.AverageAllSales" />
         <item itemvalue="JUnit.StatsServiceTest.AmounMonthsMin" />
         <item itemvalue="JUnit.StatsServiceTest.AmounAver" />
         <item itemvalue="JUnit.StatsServiceTest.MonthMaximum" />
-        <item itemvalue="JUnit.StatsServiceTest" />
-        <item itemvalue="JUnit.StatsServiceTest.AverageAllSales" />
       </list>
     </recent_temporary>
   </component>

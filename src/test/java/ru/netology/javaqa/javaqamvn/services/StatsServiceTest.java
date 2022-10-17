@@ -13,7 +13,8 @@ public class StatsServiceTest {
         int expectedSales = 8;
         int actualSales = service.NMonthMin(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 
 
     @Test
@@ -25,7 +26,8 @@ public class StatsServiceTest {
         int expectedSales = 180;
         int actualSales = service.getSumSales(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 
     @Test
     public void AverageAllSales() {
@@ -36,7 +38,8 @@ public class StatsServiceTest {
         double expectedSales = 15;
         double actualSales = service.averageSales(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 
     @Test
     public void MonthMaximum() {
@@ -44,21 +47,23 @@ public class StatsServiceTest {
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        double expectedSales =20 ;
+        double expectedSales = 20;
         double actualSales = service.MonthMax(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 
     @Test
-    public void AmounMonthsMax() {
+    public void AmountMonthsMax() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        double expectedSales =5;
+        double expectedSales = 5;
         int actualSales = service.AmountAverageMax(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 
     @Test
     public void AmounMonthsMin() {
@@ -66,10 +71,11 @@ public class StatsServiceTest {
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        double expectedSales =7;
+        double expectedSales = 7;
         int actualSales = service.AmountAverageMin(sales);
 
-        Assertions.assertEquals(expectedSales, actualSales);}
+        Assertions.assertEquals(expectedSales, actualSales);
+    }
 }
 
 
