@@ -64,7 +64,7 @@
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatsServiceTest.AmountMonthsMax">
+  <component name="RunManager" selected="JUnit.StatsServiceTest.AverageAllSales">
     <configuration name="StatsServiceTest.AmounAver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Month" />
       <extension name="coverage">
@@ -147,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StatsServiceTest.AmountMonthsMax" />
         <item itemvalue="JUnit.StatsServiceTest.AverageAllSales" />
+        <item itemvalue="JUnit.StatsServiceTest.AmountMonthsMax" />
         <item itemvalue="JUnit.StatsServiceTest.AmounMonthsMin" />
         <item itemvalue="JUnit.StatsServiceTest.AmounAver" />
         <item itemvalue="JUnit.StatsServiceTest.MonthMaximum" />

@@ -35,8 +35,8 @@ public class StatsServiceTest {
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        double expectedSales = 15;
-        double actualSales = service.averageSales(sales);
+        long expectedSales = 15;
+        long actualSales = service.averageSales(sales);
 
         Assertions.assertEquals(expectedSales, actualSales);
     }

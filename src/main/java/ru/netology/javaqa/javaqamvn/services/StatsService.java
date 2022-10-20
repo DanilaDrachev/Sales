@@ -17,16 +17,15 @@ public class StatsService {
 
         int sumSales = 0;
         for (int sale : sales) {
-            sumSales += sale;}
+            sumSales += sale;
+        }
         return sumSales;
     }
 
-    public double averageSales(int[] sales) {
+    public long averageSales(int[] sales) {
         // средняя сумма продаж в месяц
-
-        double average = 0;
-        int sumSales = sumSales;
-        average = sumSales / sales.length;
+        int sumSales = getSumSales(sales);
+        int average = sumSales / sales.length;
 
         return average;
     }
