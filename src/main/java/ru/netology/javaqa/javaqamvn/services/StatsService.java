@@ -45,11 +45,8 @@ public class StatsService {
     public int AmountAverageMax(int[] sales) {
 
 // колическтво месяцев, где продажи выше среднего
-        int sumSales = 0;
-        for (int sale : sales) {
-            sumSales += sale;
-        }
-        double average = sumSales / sales.length;
+        int sumSales = getSumSales(sales);
+        double average = averageSales(sales);
         int amountMax = 0;
         for (int i = 0; i < sales.length; i++) {
             if (sales[i] > average) {
@@ -62,11 +59,8 @@ public class StatsService {
     public int AmountAverageMin(int[] sales) {
 
 // колическтво месяцев, где продажи равно или ниже среднего
-        int sumSales = 0;
-        for (int sale : sales) {
-            sumSales += sale;
-        }
-        double average = sumSales / sales.length;
+        int sumSales = getSumSales(sales);
+        double average = averageSales(sales);
         int amountMin = 0;
         for (int i = 0; i < sales.length; i++) {
             if (sales[i] >= average) {
