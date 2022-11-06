@@ -2,7 +2,7 @@ package ru.netology.javaqa.javaqamvn.services;
 
 public class StatsService {
     // номер месяца, в котором был минимум продаж
-    public int NMonthMin(int[] sales) {
+    public int nMonthMin(int[] sales) {
         int minSales = 0;
         for (int i = 0; i < sales.length; i++) {
             if (sales[i] < sales[minSales]) {
@@ -31,7 +31,7 @@ public class StatsService {
     }
 
 
-    public int MonthMax(int[] sales) {
+    public int monthMax(int[] sales) {
         // номер месяца, в котором был пик продаж
         int maxSales = sales[0];
         for (int i = 0; i < sales.length; i++) {
@@ -42,7 +42,7 @@ public class StatsService {
         return maxSales;
     }
 
-    public int AmountAverageMax(int[] sales) {
+    public int amountAverageMax(int[] sales) {
 
 // колическтво месяцев, где продажи выше среднего
         int sumSales = getSumSales(sales);
@@ -56,7 +56,7 @@ public class StatsService {
         return amountMax;
     }
 
-    public int AmountAverageMin(int[] sales) {
+    public int amountAverageMin(int[] sales) {
 
 // колическтво месяцев, где продажи равно или ниже среднего
         int sumSales = getSumSales(sales);

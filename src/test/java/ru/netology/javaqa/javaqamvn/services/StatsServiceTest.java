@@ -11,7 +11,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         int expectedSales = 8;
-        int actualSales = service.NMonthMin(sales);
+        int actualSales = service.nMonthMin(sales);
 
         Assertions.assertEquals(expectedSales, actualSales);
     }
@@ -48,7 +48,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         double expectedSales = 20;
-        double actualSales = service.MonthMax(sales);
+        double actualSales = service.monthMax(sales);
 
         Assertions.assertEquals(expectedSales, actualSales);
     }
@@ -60,7 +60,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         double expectedSales = 5;
-        int actualSales = service.AmountAverageMax(sales);
+        int actualSales = service.amountAverageMax(sales);
 
         Assertions.assertEquals(expectedSales, actualSales);
     }
@@ -72,7 +72,7 @@ public class StatsServiceTest {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         double expectedSales = 7;
-        int actualSales = service.AmountAverageMin(sales);
+        int actualSales = service.amountAverageMin(sales);
 
         Assertions.assertEquals(expectedSales, actualSales);
     }
